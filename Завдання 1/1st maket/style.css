@@ -1,0 +1,585 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* fonts */
+
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('/1st maket/fonts/ProximaNova-Bold.eot');
+	src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+		url('/1st maket/fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('/1st maket/fonts/ProximaNova-Bold.woff') format('woff'),
+		url('/1st maket/fonts/ProximaNova-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('/1st maket/fonts/ProximaNova-Regular.eot');
+	src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+		url('/1st maket/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('/1st maket/fonts/ProximaNova-Regular.woff') format('woff'),
+		url('/1st maket/fonts/ProximaNova-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Lt';
+	src: url('/1st maket/fonts/ProximaNova-Light.eot');
+	src: local('Proxima Nova Light'), local('ProximaNova-Light'),
+		url('/1st maket/fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+		url('/1st maket/fonts/ProximaNova-Light.woff') format('woff'),
+		url('/1st maket/fonts/ProximaNova-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+/* logo + navigation*/
+
+.general {
+    padding: 0 298px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header-picture {
+    background: url("/1st maket/images/header-picture_01.jpg");
+    height: 1080px;
+    width: 1920px;
+}
+
+.menu-logo {
+    float: left;
+    padding: 53px;
+    font-size: 38px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.menu-logo span {
+    font-family: 'Proxima Nova Lt';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.menu-nav {
+    float: center;
+    padding: 59px 0 39px 0;
+    text-align: right;
+}
+
+.menu-nav li {
+    display: inline-block;
+    margin-left: 38px;
+}
+
+
+.menu-nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.contacts-box {
+    padding: 12px 21px;
+    border: 2px solid #ea974f;
+    border-radius: 50px;
+}
+
+/* motto + 2 bottons*/
+
+.motto h1 {
+    padding-top: 175px;
+    padding-bottom: 19px;
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.motto p {
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.motto-buttons {
+    text-align: center;
+    padding-top: 47px;
+}
+
+.motto-buttons li {
+    display: inline-block;
+}
+
+.ask-for-price {
+    display: inline-block;
+    background: white;
+    font-size: 18px;
+    color: #d32721;
+    padding: 0 53px 0 54px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Proxima Nova Lt';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.watch-video-button {
+    display: inline-block;
+    height: 50px;
+    padding: 0 34px 0 29px;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    margin-left: 21px;
+}
+.watch-video {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 50px;
+    font-family: 'Proxima Nova Lt';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.watch-video img {
+    display: block;
+    height: 17px;
+    width: 14px;
+}
+
+.watch-video li {
+    display: inline-block;
+}
+.watch-video .play-button {
+    padding-right: 19px;
+}
+
+.motto-mouse img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 383px;
+    height: 44px;
+    width: 25px;
+}
+
+.motto-mouse p {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    padding: 14px 0 108px 0;
+    font-family: 'Proxima Nova Lt';
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* drone features, quick facts + icons*/
+
+.features {
+    background: #f6f6f6;
+    border-top: 2px solid #ffffff;
+    height: 598px;
+    width: 1920px;
+    text-align: center;
+    padding: 113px 0 0 0;
+}
+
+.feature1 {
+    display: inline-block;
+    height: 232px;
+    width: 242px;
+}
+
+.feature1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 98px;
+    width: 103px;
+    padding-bottom: 16px;
+}
+
+.feature1 h1 {
+    color: #cb0035;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 0 19px 0;
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+    font-style: normal;
+    background: -webkit-linear-gradient(right, #e17210, #cb0035);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feature1 p {
+    color: #5e6372;
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.feature2 {
+    display: inline-block;
+    height: 232px;
+    width: 242px;
+}
+
+.feature2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 98px;
+    width: 97px;
+    padding-bottom: 16px;
+}
+
+.feature2 h1 {
+    color: #cb0035;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 0 19px 0;
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+    font-style: normal;
+    background: -webkit-linear-gradient(right, #e17210, #cb0035);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feature2 p {
+    color: #5e6372;
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.feature3 {
+    display: inline-block;
+    height: 232px;
+    width: 242px;
+}
+
+.feature3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 98px;
+    width: 84px;
+    padding-bottom: 16px;
+}
+
+.feature3 h1 {
+    color:#cb0035;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 0 19px 0;
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+    font-style: normal;
+    background: -webkit-linear-gradient(right, #e17210, #cb0035);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feature3 p {
+    color: #5e6372;
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.feature4 {
+    display: inline-block;
+    height: 232px;
+    width: 242px;
+}
+
+.feature4 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 98px;
+    width: 71px;
+    padding-bottom: 16px;
+}
+
+.feature4 h1 {
+    color: #cb0035;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 0 19px 0;
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+    font-style: normal;
+    background: -webkit-linear-gradient(right, #e17210, #cb0035);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feature4 p {
+    color: #5e6372;
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ask-for-price-blue {
+    display: inline-block;
+    height: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Proxima Nova Lt';
+    font-weight: 300;
+    font-style: normal;
+    padding: 0 54px 0 53px;
+    line-height: 50px;
+    border-radius: 50px;
+    background-color: #264699;
+    background-image: linear-gradient(208deg, #4964a9 0%, #264699 100%);
+}
+
+.blue-button {
+    padding: 104px 0 99px 0;
+}
+
+/*3rd block with drone large image*/
+
+.large-drone {
+    height: 690px;
+    width: 1920px;
+    background: url("/1st maket/images/large-drone_03.jpg") no-repeat 100% 50%;
+}
+
+.description-text h1 {
+    padding: 121px 0 32px 298px;
+    font-size: 48px;
+    line-height: 36px;
+    color: #cb0035;
+    text-align: left;
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+    font-style: normal;
+    background: -webkit-linear-gradient(right, #e17210, #cb0035);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.description-text p {
+    color: #5e6372;
+    font-size: 18px;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 36px;
+    padding-left: 298px;
+}
+
+.description-text {
+    margin-bottom: 61px;
+}
+
+.list {
+    padding: 0 298px;
+}
+
+.list1-3 {
+    float: left;
+    background: green;
+    height: 277px;
+    width: 454px;
+    margin-right: 32px;
+}
+.list4-5 {
+    float: left;
+    background: grey;
+    height: 277px;
+    width: 454px;
+}
+
+/* добавити стилізацію списків*/
+
+/* 4th block with the sea large pic*/
+
+.nature {
+    height: 639px;
+    width: 1920px;
+    background: url("/1st maket/images/nature-pic1_02.jpg") no-repeat 0% 50% #f6f6f6;
+}
+
+.nature-info {
+    height: 262px;
+    width: 563px;
+    padding-top: 179px;
+    margin-left: 1035px;
+}
+
+.nature-info h1 {
+    font-size: 48px;
+    line-height: 36px;
+    color: #cb0035;
+    text-align: left;
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+    font-style: normal;
+    background: -webkit-linear-gradient(right, #e17210, #cb0035);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 33px;
+}
+.nature-info p {
+    color: #5e6372;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 36px;
+    margin-bottom: 59px;
+}
+
+.nature-info a {
+    display: inline-block;
+    height: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Proxima Nova Lt';
+    font-weight: 300;
+    font-style: normal;
+    padding: 0 54px 0 53px;
+    line-height: 50px;
+    border-radius: 50px;
+    background-color: #264699;
+    background-image: linear-gradient(208deg, #4964a9 0%, #264699 100%);
+}
+
+/* 5th block with the city large pic*/
+
+
+.city {
+    height: 641px;
+    width: 1920px;
+    background: url("/1st maket/images/city-view_06.jpg") no-repeat 100% 50% #f6f6f6;
+}
+
+.city-info {
+    height: 262px;
+    width: 563px;
+    padding-top: 169px;
+    margin-left: 298px;
+}
+
+.city-info h1 {
+    font-size: 48px;
+    line-height: 36px;
+    color: #cb0035;
+    text-align: left;
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+    font-style: normal;
+    background: -webkit-linear-gradient(right, #e17210, #cb0035);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 33px;
+}
+.city-info p {
+    color: #5e6372;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 36px;
+    margin-bottom: 59px;
+}
+
+.city-info a {
+    display: inline-block;
+    height: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Proxima Nova Lt';
+    font-weight: 300;
+    font-style: normal;
+    padding: 0 54px 0 53px;
+    line-height: 50px;
+    border-radius: 50px;
+    background-color: #264699;
+    background-image: linear-gradient(208deg, #4964a9 0%, #264699 100%);
+}
