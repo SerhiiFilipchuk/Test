@@ -583,3 +583,99 @@ table {
     background-color: #264699;
     background-image: linear-gradient(208deg, #4964a9 0%, #264699 100%);
 }
+
+/* 6th block with submit form */
+
+.submit-form {
+    height: 489px;
+    width: 1920px;
+    background: url("/1st maket/images/road_06.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    text-align: center;
+}
+
+.submit-form h1 {
+    padding-top: 160px;
+    font-size: 48px;
+    line-height: 36px;
+    color: #ffffff;
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 46px;
+}
+
+.contact-form {
+    font-size: 18px;
+
+}
+
+.contact-form-email {
+    display: inline-block;
+    height: 50px;
+    width: 335px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    padding-left: 30px;
+    opacity: 0.5;
+}
+
+.contact-form-send {
+    display: inline-block;
+    height: 50px;
+    border-radius: 50px;
+    color: #d32721;
+    border: none;
+    padding: 0 47px;
+    background-color: #fff;
+    margin-left: -50px;
+
+}
+
+/* css для мого градієнтного фону, але чомусь не застосовується((
+.transparent-bg {
+height: 489px;
+width: 1920px;
+background: red;
+background-image: linear-gradient(90deg, rgba(203, 0, 53, 1) 0%, rgba(225, 114, 16, 1) 100%);
+}
+*/
+
+/* 6th block with a map*/
+
+.map {
+    height: 603px;
+    width: 1920px;
+    background: url("/1st maket/images/map_08.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+/* 7th block - footer*/
+
+.footer {
+    height: 396px;
+    width: 1920px;
+    background: #fff;
+}
+
+.footer-text p {
+    font-size: 18px;
+    line-height: 36px;
+    color: #a7acbc;
+    text-align: center;
+    font-family: 'Proxima Nova Lt';
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom: 19px;
+}
+
+.footer-text span {
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.footer-text {
+    padding-top: 68px;
+}
