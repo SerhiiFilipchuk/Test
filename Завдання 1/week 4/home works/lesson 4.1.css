@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+.menu div {
+    background: black;
+    color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid white;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.menu div:nth-child(even) {
+    padding-left: 40px;
+
+}
+
+.menu div:hover {
+    background: #ffffff;
+    color: black;
+}

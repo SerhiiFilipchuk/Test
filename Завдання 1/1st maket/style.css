@@ -459,19 +459,157 @@ table {
 
 .list1-3 {
     float: left;
-    background: green;
     height: 277px;
     width: 454px;
     margin-right: 32px;
-}
-.list4-5 {
-    float: left;
-    background: grey;
-    height: 277px;
-    width: 454px;
+    padding: 0;
 }
 
-/* добавити стилізацію списків*/
+.list-item1{
+    padding: 0;
+    margin-bottom: 52px;
+}
+
+.list-item1 span {
+    float: left;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #c7cde0;
+    border-radius: 100px;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    color: #3f4e76;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+    margin-right: 32px;
+}
+
+.list-item1 p {
+    font-size: 14px;
+    color: #a7acbc;
+    line-height: 24px;
+}
+
+.list-item2{
+    padding: 0;
+    margin-bottom: 52px;
+}
+
+.list-item2 span {
+    float: left;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #c7cde0;
+    border-radius: 100px;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    color: #3f4e76;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+    margin-right: 32px;
+}
+
+.list-item2 p {
+    font-size: 14px;
+    color: #a7acbc;
+    line-height: 24px;
+}
+
+.list-item3{
+    padding: 0;
+}
+
+.list-item3 span {
+    float: left;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #c7cde0;
+    border-radius: 100px;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    color: #3f4e76;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+    margin-right: 32px;
+}
+
+.list-item3 p {
+    font-size: 14px;
+    color: #a7acbc;
+    line-height: 24px;
+}
+
+.list4-5 {
+    float: left;
+    height: 277px;
+    width: 454px;
+    padding: 0;
+}
+
+.list-item4 {
+    padding: 0;
+    margin-bottom: 52px;
+}
+
+.list-item4 span {
+    float: left;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #c7cde0;
+    border-radius: 100px;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    color: #3f4e76;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+    margin-right: 32px;
+}
+
+.list-item4 p {
+    font-size: 14px;
+    color: #a7acbc;
+    line-height: 24px;
+}
+
+.list-item5{
+    padding: 0;
+    overflow: hidden;
+}
+
+.list-item5 span {
+    float: left;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #c7cde0;
+    border-radius: 100px;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    color: #3f4e76;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+    margin-right: 32px;
+}
+
+.list-item5 p {
+    font-size: 14px;
+    color: #a7acbc;
+    line-height: 24px;
+}
 
 /* 4th block with the sea large pic*/
 
@@ -586,10 +724,11 @@ table {
 
 /* 6th block with submit form */
 
+
 .submit-form {
     height: 489px;
     width: 1920px;
-    background: url("/1st maket/images/road_06.jpg") no-repeat 50% 50%;
+    background: url("/1st maket/images/road_02.jpg") no-repeat 50% 50%;
     background-size: cover;
     text-align: center;
 }
@@ -633,14 +772,7 @@ table {
 
 }
 
-/* css для мого градієнтного фону, але чомусь не застосовується((
-.transparent-bg {
-height: 489px;
-width: 1920px;
-background: red;
-background-image: linear-gradient(90deg, rgba(203, 0, 53, 1) 0%, rgba(225, 114, 16, 1) 100%);
-}
-*/
+
 
 /* 6th block with a map*/
 
