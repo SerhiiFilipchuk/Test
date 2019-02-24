@@ -1,0 +1,337 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('/PhotoTime/fonts/GothamRounded-Book.eot');
+    src: url('/PhotoTime/fonts/GothamRounded-Book.eot?#iefix') format('embedded-opentype'),
+        url('/PhotoTime/fonts/GothamRounded-Book.woff2') format('woff2'),
+        url('/PhotoTime/fonts/GothamRounded-Book.woff') format('woff'),
+        url('/PhotoTime/fonts/GothamRounded-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('/PhotoTime/fonts/GothamRounded-Bold.eot');
+    src: url('/PhotoTime/fonts/GothamRounded-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/PhotoTime/fonts/GothamRounded-Bold.woff2') format('woff2'),
+        url('/PhotoTime/fonts/GothamRounded-Bold.woff') format('woff'),
+        url('/PhotoTime/fonts/GothamRounded-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('/PhotoTime/fonts/GothamRounded-Medium.eot');
+    src: url('/PhotoTime/fonts/GothamRounded-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/PhotoTime/fonts/GothamRounded-Medium.woff2') format('woff2'),
+        url('/PhotoTime/fonts/GothamRounded-Medium.woff') format('woff'),
+        url('/PhotoTime/fonts/GothamRounded-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* first block + navigation */
+
+body {
+    font-family: 'Gotham Rounded';
+}
+
+.header {
+    background: url("/PhotoTime/images/header-bg_01.jpg") no-repeat 0 100%;
+    background-size: cover;
+    height: 746px;
+}
+
+.wrapper {
+    padding: 0 129px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 248px;
+}
+
+.nav-left li {
+    display: inline-block;
+    padding: 73px 0 0 67px;
+    text-align: right;
+}
+
+.nav-left a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+}
+.nav-logo {
+    padding: 40px 98px 0 102px;
+    height: 55px;
+    width: 53px;
+}
+
+.nav-right li{
+    display: inline-block;
+    padding: 73px 79px 0 0;
+    text-align: left;
+
+}
+
+.nav-right a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-text h1 {
+    color: #ffffff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 14px;
+}
+
+.header-text p {
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: lowercase;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 27px;
+}
+
+.header-text a {
+    display: inline-block;
+    height: 50px;
+    border-radius: 2px;
+    background: #16a085;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 50px;
+    padding: 0 31px;
+    text-align: center;
+}
+.one {
+    display: inline-block;
+    height: 50px;
+    border-radius: 2px;
+    background: #16a085;
+    text-align: center;
+    padding: 0 31px;
+
+}
+
+/* 2nd block of phone+hand */
+
+.hand-and-phone {
+    height: 492px;
+    background: #f5f6f7;
+}
+
+.section1 {
+    background: url("/PhotoTime/images/hand-and-phone_03.png") no-repeat 100% 100%;
+    height: 492px;
+
+}
+
+.hand-and-phone .text-block {
+    height: 289px;
+    width: 428px;
+    padding-top: 113px;
+}
+
+.hand-and-phone h2 {
+    color: #16a085;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 21px;
+    margin-bottom: 49px;
+}
+
+.hand-and-phone p {
+    color: #373737;
+    text-align: left;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.hand-and-phone span {
+    color: #373737;
+    text-align: left;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.hand-and-phone a {
+    display: inline-block;
+    height: 50px;
+    border-radius: 2px;
+    background: #16a085;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 50px;
+    padding: 0 31px;
+    margin-top: 47px;
+}
+
+/* 3rd section with phone*/
+
+.phone {
+    height: 558px;
+    background: #ffffff;
+}
+
+.section2 {
+    background: url("/PhotoTime/images/phone_03.png") no-repeat 0 100%;
+    height: 558px;
+}
+
+.phone .text-block {
+    height: 289px;
+    width: 428px;
+    padding-top: 140px;
+    float: right;
+}
+
+.phone h2 {
+    color: #16a085;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 21px;
+    margin-bottom: 49px;
+}
+
+.phone p {
+    color: #373737;
+    text-align: left;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.phone span {
+    color: #373737;
+    text-align: left;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.phone a {
+    display: inline-block;
+    height: 50px;
+    border-radius: 2px;
+    background: #16a085;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 50px;
+    padding: 0 31px;
+    margin-top: 47px;
+}
+
+/* 4th section - community info*/
+
+.community {
+    height: 483px;
+    background: #f5f6f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.community .community-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.community-info img {
+    margin-bottom: 31px;
+}
+
+.community-info h2 {
+    margin-bottom: 24px;
+    color: #373737;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.community-info p {
+    color: #373737;
+    font-weight: 500;
+    font-style: normal;
+}

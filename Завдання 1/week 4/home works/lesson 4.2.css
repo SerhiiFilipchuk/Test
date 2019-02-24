@@ -1,0 +1,45 @@
+.black {
+    height: 800px;
+    width: 800px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white {
+    height: 600px;
+    width: 600px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.green {
+    height: 100px;
+    width: 100px;
+    background: rgb(92, 150, 5);
+}
+.col-left {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+
+.col-center {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.col-right {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+}
