@@ -46,33 +46,33 @@ table {
 
 @font-face {
 	font-family: 'Proxima Nova Rg';
-	src: url('/1st maket/fonts/ProximaNova-Bold.eot');
+	src: url('/Drone Zone/fonts/ProximaNova-Bold.eot');
 	src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
-		url('/1st maket/fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
-		url('/1st maket/fonts/ProximaNova-Bold.woff') format('woff'),
-		url('/1st maket/fonts/ProximaNova-Bold.ttf') format('truetype');
+		url('/Drone Zone/fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('/Drone Zone/fonts/ProximaNova-Bold.woff') format('woff'),
+		url('/Drone Zone/fonts/ProximaNova-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Proxima Nova Rg';
-	src: url('/1st maket/fonts/ProximaNova-Regular.eot');
+	src: url('/Drone Zone/fonts/ProximaNova-Regular.eot');
 	src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
-		url('/1st maket/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
-		url('/1st maket/fonts/ProximaNova-Regular.woff') format('woff'),
-		url('/1st maket/fonts/ProximaNova-Regular.ttf') format('truetype');
+		url('/Drone Zone/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('/Drone Zone/fonts/ProximaNova-Regular.woff') format('woff'),
+		url('/Drone Zone/fonts/ProximaNova-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Proxima Nova Lt';
-	src: url('/1st maket/fonts/ProximaNova-Light.eot');
+	src: url('/Drone Zone/fonts/ProximaNova-Light.eot');
 	src: local('Proxima Nova Light'), local('ProximaNova-Light'),
-		url('/1st maket/fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
-		url('/1st maket/fonts/ProximaNova-Light.woff') format('woff'),
-		url('/1st maket/fonts/ProximaNova-Light.ttf') format('truetype');
+		url('/Drone Zone/fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+		url('/Drone Zone/fonts/ProximaNova-Light.woff') format('woff'),
+		url('/Drone Zone/fonts/ProximaNova-Light.ttf') format('truetype');
 	font-weight: 300;
 	font-style: normal;
 }
@@ -88,7 +88,7 @@ table {
 }
 
 .header-picture {
-    background: url("/1st maket/images/header-picture_01.jpg");
+    background: url("/Drone Zone/images/header-picture_01.jpg");
     height: 1080px;
     width: 1920px;
 }
@@ -423,7 +423,7 @@ table {
 .large-drone {
     height: 690px;
     width: 1920px;
-    background: url("/1st maket/images/large-drone_03.jpg") no-repeat 100% 50%;
+    background: url("/Drone Zone/images/large-drone_03.jpg") no-repeat 100% 50%;
 }
 
 .description-text h1 {
@@ -616,7 +616,7 @@ table {
 .nature {
     height: 639px;
     width: 1920px;
-    background: url("/1st maket/images/nature-pic1_02.jpg") no-repeat 0% 50% #f6f6f6;
+    background: url("/Drone Zone/images/nature-pic1_02.jpg") no-repeat 0% 50% #f6f6f6;
 }
 
 .nature-info {
@@ -672,7 +672,7 @@ table {
 .city {
     height: 641px;
     width: 1920px;
-    background: url("/1st maket/images/city-view_06.jpg") no-repeat 100% 50% #f6f6f6;
+    background: url("/Drone Zone/images/city-view_06.jpg") no-repeat 100% 50% #f6f6f6;
 }
 
 .city-info {
@@ -728,7 +728,7 @@ table {
 .submit-form {
     height: 489px;
     width: 1920px;
-    background: url("/1st maket/images/road_02.jpg") no-repeat 50% 50%;
+    background: url("/Drone Zone/images/road_02.jpg") no-repeat 50% 50%;
     background-size: cover;
     text-align: center;
 }
@@ -779,7 +779,7 @@ table {
 .map {
     height: 603px;
     width: 1920px;
-    background: url("/1st maket/images/map_08.jpg") no-repeat 50% 50%;
+    background: url("/Drone Zone/images/map_08.jpg") no-repeat 50% 50%;
     background-size: cover;
 }
 
